@@ -249,12 +249,12 @@ class Setup {
 		}
 
 		// styles.
-		wp_enqueue_style( 'wp-color-picker', admin_url( 'css/color-picker.css' ), [], null, true );
-		wp_enqueue_style( 'settings-page', FRESHCOOKIEBAR_PLUGIN_URL . '/assets/css/settings-page.css', [], '0.1.0' );
+		wp_enqueue_style( 'wp-color-picker', admin_url( 'css/color-picker.css' ), [], FRESHCOOKIEBAR_PLUGIN_VERSION, true );
+		wp_enqueue_style( 'settings-page', FRESHCOOKIEBAR_PLUGIN_URL . '/assets/css/settings-page.css', [], FRESHCOOKIEBAR_PLUGIN_VERSION );
 
 		// scripts.
 		wp_register_script( 'iris', admin_url( 'js/iris.min.js' ), array( 'jquery-ui-draggable', 'jquery-ui-slider', 'jquery-touch-punch' ), '1.0.7', true );
-		wp_register_script( 'wp-color-picker', admin_url( 'js/color-picker.min.js' ), [ 'iris' ], null, true );
+		wp_register_script( 'wp-color-picker', admin_url( 'js/color-picker.min.js' ), [ 'iris' ], FRESHCOOKIEBAR_PLUGIN_VERSION, true );
 		wp_enqueue_script( 'wp-color-picker-alpha', FRESHCOOKIEBAR_PLUGIN_URL . '/assets/js/wp-color-picker-alpha.min.js', [ 'wp-color-picker' ], '2.1.3', true );
 		wp_enqueue_script( 'freshcookiebar-settings', FRESHCOOKIEBAR_PLUGIN_URL . '/assets/js/settings.js', [ 'wp-color-picker-alpha' ], FRESHCOOKIEBAR_PLUGIN_VERSION, true );
 	}
