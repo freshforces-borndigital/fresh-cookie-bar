@@ -1,0 +1,7 @@
+{
+  "name": "fresh-forces/freshcookiebar",
+  "description": "Cookie consent bar for GDPR compliant.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0 License",
+  "require": {}
+}
