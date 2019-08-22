@@ -20,8 +20,8 @@ Cookie consent bar for GDPR compliant website.
 
 #### Download manually:
 
-- Download the [latest release](https://github.com/freshforces-borndigital/freshcookiebar/releases/latest)
-- Extract and rename it as _freshcookiebar_
+- Download the [latest release](https://github.com/freshforces-borndigital/fresh-cookie-bar/releases/latest)
+- Extract and rename it as _fresh-cookie-bar_
 - Upload to your _wp-content_ directory
 - Activate it from _Dashboard_ -> _Plugins_
 - Your setting will be available under _Settings_ -> _Cookie Bar_ menu
